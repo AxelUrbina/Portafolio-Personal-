@@ -6,5 +6,4 @@ Para correrlo en Live Server solo se da clic derecho al archivo index y se elige
 
 2. qué hace el sitio y qué interacciones incluye
 
-El sitio cuenta con los apartados de logros, proyectos y certificaciones. En los proyectos se busca y carga la información, también cambia de sección o da mensajes de error al cargar los datos.
-
+El sitio trae apartados de logros, proyectos y certificaciones. En proyectos se cargan datos y se muestran en tabla, también se puede buscar información en el campo de texto, se puede cambiar de sección y muestra mensajes como: sin resultados o error dependiendo de lo que ocurra.
