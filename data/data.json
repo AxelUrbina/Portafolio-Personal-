@@ -1,0 +1,17 @@
+[
+  { "nombre": "App móvil", "tipo": "Proyecto", "anio": 2026 },
+  { "nombre": "Página web", "tipo": "Proyecto", "anio": 2026 },
+
+  { "nombre": "Formulario web", "tipo": "Proyecto", "anio": 2025 },
+  { "nombre": "Proyecto web", "tipo": "Proyecto", "anio": 2025 },
+  { "nombre": "Punto de venta", "tipo": "Proyecto", "anio": 2025 },
+  { "nombre": "Ejercicios JS", "tipo": "Proyecto", "anio": 2025 },
+
+  { "nombre": "Concurso CIPTI 2024", "tipo": "Evento", "anio": 2024 },
+  { "nombre": "Sistema de inventario", "tipo": "Proyecto", "anio": 2024 },
+  { "nombre": "Base de datos alumnos", "tipo": "Proyecto", "anio": 2024 },
+  { "nombre": "Práctica SQL", "tipo": "Proyecto", "anio": 2024 },
+  { "nombre": "Mini blog", "tipo": "Proyecto", "anio": 2024 },
+
+  { "nombre": "CRUD en VS", "tipo": "Proyecto", "anio": 2023 }
+]

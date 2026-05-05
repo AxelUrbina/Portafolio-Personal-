@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micrositio informativo</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-100">
+
+<header class="bg-gray-800 text-white p-4">
+    <h1>Portafolio Personal Académico</h1>
+</header>
+
+<nav class="bg-gray-600 text-white p-2 flex gap-4">
+    <a href="#" onclick="mostrar('logros')">Logros</a>
+    <a href="#" onclick="mostrar('proyectos')">Proyectos</a>
+    <a href="#" onclick="mostrar('certificaciones')">Certificaciones</a>
+</nav>
+
+<main class="p-4">
+
+<section id="logros">
+    <h2>Logros</h2>
+
+    <ul>
+        <li>Participación en eventos académicos</li>
+        <li>Trabajo en equipo</li>
+        <li>Desarrollo de proyectos</li>
+    </ul>
+</section>
+
+<section id="proyectos" class="hidden">
+    <h2>Proyectos</h2>
+
+    <input type="text" id="buscador" placeholder="Buscar..." class="border p-1 mb-2">
+
+    <p id="estado">Escribe algo para buscar</p>
+
+    <table class="w-full border border-black border-collapse">
+        <thead>
+            <tr>
+                <th class="border border-black p-1">Nombre</th>
+                <th class="border border-black p-1">Tipo</th>
+                <th class="border border-black p-1">Año</th>
+            </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+    </table>
+
+</section>
+
+<section id="certificaciones" class="hidden">
+    <h2>Certificaciones</h2>
+
+    <p>Evidencia de participación académica</p>
+
+    <img src="asssets/Part. Evidencia.png" alt="Evidencia" class="mt-2">
+</section>
+
+</main>
+
+<footer class="bg-gray-800 text-white text-center p-2"> 2026 - Axel </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
